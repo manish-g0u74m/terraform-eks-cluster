@@ -1,0 +1,15 @@
+variable "aws_region" {}
+#variable "azs" {}
+variable "vpc_cidr_block" {}
+variable "private_subnets" {}
+variable "public_subnets" {}
+variable "environment" {}
+variable "eks_cluster_name" {}
+variable "eks_cluster_version" {}
+variable "eks_node_ami_type" {}
+variable "key_pair_name" {}
+variable "eks_node_instance_types" {}
+variable "eks_node_min_size" {}
+variable "eks_node_max_size" {}
+variable "eks_node_desired_size" {}
+variable "eks_node_disk_size" {}
